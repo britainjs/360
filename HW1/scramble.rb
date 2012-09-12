@@ -3,7 +3,7 @@
 # then rejoins it into a string
 
 def scramble(s)
-    scrambled = s.split("").sort_by{rand}.join
+    scrambled = s.split("").shuffle.join
 end
 
 # Randomizing method courtesy of 

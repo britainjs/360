@@ -6,7 +6,7 @@ def stutter
     x = 0
     while x < self.length
         self.insert(x+1, self[x])
-        x = x + 2
+        x += 2
     end
     return self
 end
