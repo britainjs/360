@@ -3,9 +3,10 @@
 
 def powers_of_two(limit)
     count = 0
+    return if limit == 0
     while true
         yield 2**count
         count += 1
-        return if (2**count) > limit
+        return if (2**count) > limit        
     end
 end

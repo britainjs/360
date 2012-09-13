@@ -3,6 +3,7 @@
 def powers(base, limit)
 
     count = 0
+    return if (base ==  0) | (base == 1)
     
     while true
         yield base**count
